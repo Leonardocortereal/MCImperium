@@ -1,0 +1,65 @@
+.banner{
+  height:300px;
+  background:url(../../assets/img/banner.jpg) no-repeat center;
+  background-size:cover;
+}
+
+img.logo{
+  -webkit-animation:move 2.5s ease-out infinite;
+  animation:move 2.5s linear infinite;
+}
+
+
+@-webkit-keyframes move {
+  0% { -webkit-transform: translateY(0); }
+  48% { -webkit-transform: translateY(-8px); }
+  55% { -webkit-transform: translateY(-8px); }
+  100% { -webkit-transform: translateY(0); }
+}    
+
+@keyframes move {
+  0% { -webkit-transform: translateY(0); }
+  48% { -webkit-transform: translateY(-8px); }
+  55% { -webkit-transform: translateY(-8px); }
+  100% { -webkit-transform: translateY(0); }
+} 
+
+.servidor{
+  height:60px;
+  background-color:#014866;
+}
+
+.server-copiar{
+  background:#018bc6;
+  color:#FFFFFF;
+  font-weight:bold;
+}
+
+.server-players{
+  background:#018bc6;
+  color:#FFFFFF;
+  font-weight:bold;
+}
+
+.server{
+  padding:10px 20px;
+  border-radius:5px;
+  cursor:pointer;
+  border-color:transparent;
+  margin-top:6px;
+  margin-left:70px;
+  float:left;
+}
+
+.serverp{
+  padding:10px 20px;
+  border-radius:5px;
+  border-color:transparent;
+  margin-top:6px;
+  margin-right:70px;
+  float:right;
+}
+
+body {
+  padding-right: 0!important;
+}

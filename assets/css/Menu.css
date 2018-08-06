@@ -1,0 +1,125 @@
+.navbar{
+  position:relative;
+  min-height:70px;
+  margin-bottom:0px;
+  border:0px solid rgba(122,91,91,0);
+}
+
+@media (min-width:768px) {
+  .navbar{
+    border-radius:0;
+  }
+}
+
+.navbar-default{
+  background-color:#018bc6;
+  border-color:#018bc6;
+}
+
+.navbar{
+  border:none;
+  font-size:14px;
+  font-weight:300;
+}
+
+a:active, a:hover{
+  outline:0;
+  color:#5e5e5e;
+}
+
+@media (min-width:768px) {
+  .navbar-nav > li > a{
+    padding-top:12px;
+    padding-bottom:12px;
+    color:#04fbdd;
+  }
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:#ffffff;
+  padding:23px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  color:#f9e09e;
+  height:70px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+  color:#ffffff;
+  padding:23px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  color:#ffffff;
+  background-color:#014866;
+  height:70px;
+  padding:23px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.navbar-brand{
+  float:left;
+  padding:23px 15px;
+  font-size:23px;
+  line-height:21px;
+  height:35px;
+  font-family:Satisfy, Arial;
+  text-shadow:0 0 17px black;
+  color:white;
+}
+
+@media (min-width:768px) {
+  .navbar-nav > li > a{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+}
+
+.navbar-nav > li > a{
+  padding-top:10px;
+  padding-bottom:10px;
+  line-height:normal;
+}
+
+@media (min-width:768px) {
+  .navbar-nav > li > a{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
+
+a:active, a:hover{
+  outline:0;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  color:#ffffff;
+  background-color:#014866;
+  height:70px;
+}
+
+.navbar-nav{
+  font-size:18px;
+  height:1px;
+}
+
+i.menuicon{
+  text-shadow:0 0 7px rgb(17,17,17);
+}
+
+a.navbar-brand.navbar-link{
+  color:white;
+}
+
+.navbar-default .navbar-link:hover{
+  color:#333;
+}
+
+.navbar-default .navbar-link:hover{
+  color:#333;
+}
+
